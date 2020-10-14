@@ -6,6 +6,7 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
+@ToString
 public class Role {
     private long id;
     private String description;
