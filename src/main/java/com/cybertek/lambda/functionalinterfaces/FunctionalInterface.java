@@ -24,6 +24,8 @@ public class FunctionalInterface {
         Predicate<Integer> lesserThan = i -> (i<10);
         System.out.println(lesserThan.test(5));
 
+        // Commit
+
 
     }
 }
