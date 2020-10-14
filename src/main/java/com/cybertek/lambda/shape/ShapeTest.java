@@ -19,7 +19,7 @@ public class ShapeTest {
             System.out.println("What kind of shape is this? :" + shape);
             System.out.println("Who is drawing this shape? :" + name);
         };
-        drawable31.draw("Triangle","Ozzy");
+        drawable31.draw("Triangle","Mike");
 
 
 
