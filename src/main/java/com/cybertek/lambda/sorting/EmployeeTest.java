@@ -28,6 +28,10 @@ public class EmployeeTest {
 
         System.out.println(employeeList);
 
+        employeeList.sort((emp1,emp2) -> emp1.getEmployeeId().compareTo(emp2.getEmployeeId()));
+        System.out.println(employeeList);
+
+
 
     }
 
