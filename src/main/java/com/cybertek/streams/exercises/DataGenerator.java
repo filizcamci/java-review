@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
 public class DataGenerator {
     public static Role adminRole = new Role(1, "Admin");
     public static Role managerRole = new Role(2, "Manager");
@@ -16,6 +17,7 @@ public class DataGenerator {
     public static Role ceoRole = new Role(6,"Chief Executive Officer");
     public static Role cfoRole = new Role(7,"Chief Financial Officer");
     public static Role cmoRole = new Role(8,"Chief Marketing Officer");
+
     public static User manager1 = new User("Delisa",
             "Norre", managerRole, Gender.FEMALE);
     public static User manager2 = new User("Craig",
@@ -26,6 +28,7 @@ public class DataGenerator {
             "Kane",managerRole,Gender.MALE);
     public static User manager5 = new User("Tracy",
             "Wilson",managerRole,Gender.FEMALE);
+
     public static Project project1 = new Project(1, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1,
             "PRJ001", "Human Resource CRM", manager1, LocalDate.now(), LocalDate.now().plusDays(6), Status.IN_PROGRESS,
             "HCRM Detail Information");
@@ -40,6 +43,7 @@ public class DataGenerator {
             "Seperate the role and task projacts");
     public static Project project5 = new Project(5, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1,
             "PRJ005", "E commerce", manager1, LocalDate.now(), LocalDate.now().plusDays(10), Status.OPEN,"Shopping");
+
     public static User user1 = new User("Sarah",
             "Brown",supervisorRole,Gender.FEMALE);
     public static User user2 = new User("Isabella",
@@ -72,6 +76,7 @@ public class DataGenerator {
             "Evans",cfoRole,Gender.MALE);
     public static User user16 = new User("Barbara",
             "Martin",cmoRole,Gender.FEMALE);
+
     public static List<Role> getRoles() {
         List<Role> roles = new ArrayList<>();
         roles.add(employeeRole);
