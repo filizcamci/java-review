@@ -71,7 +71,7 @@ public class StreamDemo {
     */
 
     /*Task-12
-    public static long findTotalMaleInCompany(Status status){
+    public static long findTotalMaleInCompany(){
 
     }
     */
